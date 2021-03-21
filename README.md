@@ -2,8 +2,8 @@
 
 ```
 NAT - Network Address Translator
-STUN
-TURN
+STUN - Sessino Traversal Utilities for NAT
+TURN - 
 ICE
 SDP
 Signaling the SDP

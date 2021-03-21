@@ -1,7 +1,7 @@
 ### Web-RTC-Notes
 
 ```
-NAT - Network Address Transfer
+NAT - Network Address Translator
 STUN
 TURN
 ICE

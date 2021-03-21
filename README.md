@@ -10,8 +10,8 @@ STUN - Session Traversal Utilities for NAT
      - Cheap to maintain
      - Default port 3478, 5349
      
-     Example how it work: Computer 1 <--[ip:port]--> Stun Server <--[ip:port]--> Remote Computer 
-                          Computer 1 <-- [Files/Media etc] Remote Computer 1
+     Example how it work: Computer 1 <--[assigned ip:port]--> Stun Server <--[assigned ip:port]--> Remote Computer 
+                          Computer 1 <-- [send Files/Media etc] Remote Computer 1
                           
 TURN - Traversal Using Relays around NAT
      - Expensive to maintain
@@ -19,8 +19,8 @@ TURN - Traversal Using Relays around NAT
      - Default port 3478, 5349
      - In case of Symmetric NAT we use TURN
      
-    Example how it work: Computer 1 <--[ip:port]--> Stun Server <--[ip:port]--> Remote Computer 
-                         Computer 1 <-- [Files/Media etc] Stun Server <-- [Files/Media etc] Remote Computer 1
+    Example how it work: Computer 1 <--[assigned ip:port]--> Stun Server <--[assigned ip:port]--> Remote Computer 
+                         Computer 1 <-- [send Files/Media etc] Stun Server <-- [send Files/Media etc] Remote Computer 1
          
 ICE
 SDP
